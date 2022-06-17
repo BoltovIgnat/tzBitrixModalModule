@@ -1,0 +1,16 @@
+.ibc-modal{
+    z-index: 2000;
+}
+.ibc-modal-backdrop {
+    --bs-backdrop-zindex: 1050;
+    --bs-backdrop-bg: #000;
+    --bs-backdrop-opacity: 0.2;
+    position: fixed;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--bs-backdrop-bg);
+}
